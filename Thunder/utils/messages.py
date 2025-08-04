@@ -226,12 +226,12 @@ MSG_DC_UNKNOWN = "Unknown"
 # ------ File Link Generation ------
 MSG_DM_SINGLE_PREFIX = "📬 **From {chat_title}**\n"
 MSG_LINKS = (
-    "✨ **Your Links are Ready!** ✨\n\n"
+    "> ✨ **Your Links are Ready!** ✨\n\n"
     "> `{file_name}`\n\n"
-    "📂 **File Size:** `{file_size}`\n\n"
-    "🚀 **Download Link:**\n`{download_link}`\n\n"
-    "🖥️ **Stream Link:**\n`{stream_link}`\n\n"
-    "⌛️ **Note: Links remain active while the bot is running and the file is accessible.**"
+    "> 📂 **File Size:** `{file_size}`\n\n"
+    "> 🚀 **Download Link:**\n`{download_link}`\n\n"
+    "> 🖥️ **Stream Link:**\n`{stream_link}`\n\n"
+    "> ⌛️ **Note: Links remain active while the bot is running and the file is accessible.**"
 )
 
 # =====================================================================================
@@ -239,7 +239,7 @@ MSG_LINKS = (
 # =====================================================================================
 
 MSG_NEW_USER = (
-    "✨ **New User Alert!** ✨\n"
+    "> ✨ **New User Alert!** ✨\n"
     "> 👤 **Name:** [{first_name}](tg://user?id={user_id})\n"
     "> 🆔 **User ID:** `{user_id}`\n\n"
 )
@@ -256,8 +256,8 @@ MSG_DEFAULT_FILENAME = "Untitled File"
 MSG_NEW_FILE_REQUEST = (
     "> 👤 **Source:** [{source_info}](tg://user?id={id_})\n"
     "> 🆔 **ID:** `{id_}`\n\n"
-    "🚀 **Download:** `{online_link}`\n\n"
-    "🖥️ **Stream:** `{stream_link}`"
+    "> 🚀 **Download:** `{online_link}`\n\n"
+    "> 🖥️ **Stream:** `{stream_link}`"
 )
 
 # ------ Batch Processing ------
@@ -341,4 +341,5 @@ MSG_SYSTEM_STATS = (
 )
 
 MSG_DB_STATS = "📊 **Database Statistics**\n\n> 👥 **Total Users:** `{total_users}`"
+
 
