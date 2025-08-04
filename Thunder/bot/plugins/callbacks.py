@@ -145,3 +145,4 @@ async def fallback_callback(client: Client, callback_query: CallbackQuery):
         logger.error(f"Error in fallback callback: {e}", exc_info=True)
 
 
+
