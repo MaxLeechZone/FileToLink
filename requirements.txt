@@ -6,4 +6,6 @@ motor
 psutil
 python-dotenv
 tgcrypto
+
 uvloop
+kurigram==2.2.6
